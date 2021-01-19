@@ -1118,10 +1118,22 @@ img {
   line-height: 1.4;
 }
 
+@media screen and (max-width: 767px) {
+  .blog-lists-list-contents-txt {
+    font-size: 3.73333vw;
+  }
+}
+
 .blog-lists-list-contents-time {
   font-size: 1.1713vw;
   line-height: 1.6;
   text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-lists-list-contents-time {
+    font-size: 3.2vw;
+  }
 }
 
 .works-container {
@@ -1223,7 +1235,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .works .swiper-slide-list-contents-def-list-item {
-    font-size: 2.66667vw;
+    font-size: 3.2vw;
     font-weight: normal;
   }
 }

@@ -728,11 +728,17 @@ img {
 				&-txt {
 					font-size: (18/$vw-pc)*100vw;
 					line-height: 1.4;
+					@media #{$mq-sp} {
+						font-size: (14/$vw-sp)*100vw;
+					}
 				}
 				&-time {
 					font-size: (16/$vw-pc)*100vw;
 					line-height: 1.6;
 					text-align: right;
+					@media #{$mq-sp} {
+						font-size: (12/$vw-sp)*100vw;
+					}
 				}
 			}
 		}
@@ -802,7 +808,7 @@ img {
 						font-size: (14/$vw-pc)*100vw;
 						line-height: 1.4;
 						@media #{$mq-sp} {
-							font-size: (10/$vw-sp)*100vw;
+							font-size: (12/$vw-sp)*100vw;
 							font-weight: normal;
 						}
 						&-t {
